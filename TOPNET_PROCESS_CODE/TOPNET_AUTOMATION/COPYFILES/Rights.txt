@@ -1,0 +1,2 @@
+Example Water Rights Information	(Priority Date in yyyymmdd format)	(Legal daily maximum and legal annual maximums in cubic meters per day and cubic meters)	
+RightID	PriorityDate	LegalDailyMax	LegalAnnMax

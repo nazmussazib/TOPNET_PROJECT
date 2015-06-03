@@ -1,0 +1,3 @@
+WRIA 1 Existing Conditions				
+SourceID	Type	SourceLocationID	PhysicalDailyMax	PhysicalAnnMax
+

@@ -1,0 +1,3 @@
+WRIA 1 Existing Conditions.  This file defines seasons for source mixing.  At present source mixing is assumed constant hence the single season from day 1 to 366.				
+SeasonsDefnID	StartDaySeason1	StartDaySeason2	StartDaySeason3	StartDaySeason4
+1	1	366	366	366

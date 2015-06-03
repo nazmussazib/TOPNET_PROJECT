@@ -1,0 +1,20 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Jul 01 21:09:03 2013
+        MODULE SETUP_ZBAR0S__genmod
+          INTERFACE 
+            SUBROUTINE SETUP_ZBAR0S(NS,SI,SP,TL,DT,LOUT,IREACH,DFLOW,   &
+     &SUMA,KNT,MAXRESPONSE,MAXSLP)
+              INTEGER(KIND=4) :: MAXSLP
+              INTEGER(KIND=4) :: MAXRESPONSE
+              INTEGER(KIND=4) :: NS
+              REAL(KIND=8) :: SI(3,MAXSLP)
+              REAL(KIND=8) :: SP(39,MAXSLP)
+              REAL(KIND=8) :: TL(MAXSLP)
+              INTEGER(KIND=8) :: DT
+              INTEGER(KIND=4) :: LOUT(MAXRESPONSE)
+              INTEGER(KIND=4) :: IREACH(MAXSLP)
+              REAL(KIND=8) :: DFLOW(MAXRESPONSE)
+              REAL(KIND=8) :: SUMA(MAXRESPONSE)
+              INTEGER(KIND=4) :: KNT(MAXRESPONSE)
+            END SUBROUTINE SETUP_ZBAR0S
+          END INTERFACE 
+        END MODULE SETUP_ZBAR0S__genmod

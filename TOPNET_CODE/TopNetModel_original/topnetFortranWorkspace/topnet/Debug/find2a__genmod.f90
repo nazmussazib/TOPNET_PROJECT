@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Jun 26 16:19:25 2013
+        MODULE FIND2A__genmod
+          INTERFACE 
+            SUBROUTINE FIND2A(IARRAY1,IVAL1,IARRAY2,IVAL2,NUM)
+              INTEGER(KIND=4) :: NUM
+              INTEGER(KIND=4) :: IARRAY1(NUM)
+              INTEGER(KIND=4) :: IVAL1
+              INTEGER(KIND=4) :: IARRAY2(NUM)
+              INTEGER(KIND=4) :: IVAL2
+            END SUBROUTINE FIND2A
+          END INTERFACE 
+        END MODULE FIND2A__genmod

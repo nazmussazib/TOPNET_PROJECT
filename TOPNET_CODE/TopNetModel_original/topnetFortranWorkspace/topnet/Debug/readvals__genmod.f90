@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Jun 26 16:19:21 2013
+        MODULE READVALS__genmod
+          INTERFACE 
+            SUBROUTINE READVALS(VALS,VFILE,N)
+              REAL(KIND=4) :: VALS(1)
+              CHARACTER(LEN=200) :: VFILE
+              INTEGER(KIND=4) :: N
+            END SUBROUTINE READVALS
+          END INTERFACE 
+        END MODULE READVALS__genmod

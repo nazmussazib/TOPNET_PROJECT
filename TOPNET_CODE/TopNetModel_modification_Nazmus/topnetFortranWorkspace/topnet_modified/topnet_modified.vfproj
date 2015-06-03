@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{A971BD8F-607F-4DE7-A13E-36BC2EDF566A}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" LocalSavedScalarsZero="true" FloatingPointExceptionHandling="fpe0" Traceback="true" BoundsCheck="true" UninitializedVariablesCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" GenerateDebugInformation="true"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\topnetcodes\AllocateWaterToUsers.f90"/>
+		<File RelativePath="..\..\topnetcodes\Append_To_Output_Tables.f90"/>
+		<File RelativePath="..\..\topnetcodes\AssignDrainageFlows.f90"/>
+		<File RelativePath="..\..\topnetcodes\AssignPriorityOrder.f90"/>
+		<File RelativePath="..\..\topnetcodes\BalanceFlowsAtReservoirs.f90"/>
+		<File RelativePath="..\..\topnetcodes\BalanceFlowsAtStreamNodes.f90"/>
+		<File RelativePath="..\..\topnetcodes\BuildDrainageOrder.f90"/>
+		<File RelativePath="..\..\topnetcodes\BuildLinkStructure.f90"/>
+		<File RelativePath="..\..\topnetcodes\BuildNodeStructure.f90"/>
+		<File RelativePath="..\..\topnetcodes\CalculateDemand.f90"/>
+		<File RelativePath="..\..\topnetcodes\calv46sn_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\Data_Read.f90"/>
+		<File RelativePath="..\..\topnetcodes\et_v7_fromdave.f"/>
+		<File RelativePath="..\..\topnetcodes\find.f90"/>
+		<File RelativePath="..\..\topnetcodes\hydatasn_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\ImposeMeasuredFlows.f90"/>
+		<File RelativePath="..\..\topnetcodes\indepth1_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\Initialise_Output_Tables.f90"/>
+		<File RelativePath="..\..\topnetcodes\mddata_v10_7.f"/>
+		<File RelativePath="..\..\topnetcodes\MIC.FOR"/>
+		<File RelativePath="..\..\topnetcodes\modules.f90"/>
+		<File RelativePath="..\..\topnetcodes\newt.for"/>
+		<File RelativePath="..\..\topnetcodes\PropagateWaterViaUser.f90"/>
+		<File RelativePath="..\..\topnetcodes\PTRATE.FOR"/>
+		<File RelativePath="..\..\topnetcodes\read_inputs.f90"/>
+		<File RelativePath="..\..\topnetcodes\read_struct_from_text.f90"/>
+		<File RelativePath="..\..\topnetcodes\snowdgtv22.f"/>
+		<File RelativePath="..\..\topnetcodes\SnowLSub.f"/>
+		<File RelativePath="..\..\topnetcodes\SnowWrap.f"/>
+		<File RelativePath="..\..\topnetcodes\snowxv22.f"/>
+		<File RelativePath="..\..\topnetcodes\top_main_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\toplim_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\topmoddgt_v7.f"/>
+		<File RelativePath="..\..\topnetcodes\watermgmt.f90"/>
+		<File RelativePath="..\..\topnetcodes\Write_Output_line.f90"/>
+		<File RelativePath="..\..\topnetcodes\Write_Output_Tables.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,179 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: compilable - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dtarb\LOCALS~1\Temp\RSPD4.tmp" with contents
+[
+/automatic /browser:"Debug/" /check:bounds /compile_only /dbglibs /debug:full /nologo /recursive /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\topmoddgt_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\top_main_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\snowxv22.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\SnowWrap.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\SnowLSub.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\snowdgtv22.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\PTRATE.FOR"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\newt.for"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\modules.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Write_Output_Tables.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Write_Output_line.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\watermgmt.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\read_struct_from_text.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\read_inputs.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\PropagateWaterViaUser.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\MIC.FOR"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\mddata_v10_7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Initialise_Output_Tables.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\indepth1_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\ImposeMeasuredFlows.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\hydatasn_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\find.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\et_v7_fromdave.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Data_Read.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\toplim_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\calv46sn_v7.f"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\CalculateDemand.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildNodeStructure.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildLinkStructure.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildDrainageOrder.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BalanceFlowsAtStreamNodes.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BalanceFlowsAtReservoirs.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AssignPriorityOrder.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AssignDrainageFlows.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Append_To_Output_Tables.f90"
+"C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AllocateWaterToUsers.f90"
+]
+Creating temporary file "C:\DOCUME~1\dtarb\LOCALS~1\Temp\RSPD5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /stack:0x2faf0800 /subsystem:console /incremental:no /pdb:"Debug/topnet.pdb" /debug /machine:I386 /out:"Debug/topnet.exe" /pdbtype:sept 
+.\Debug\AllocateWaterToUsers.obj
+.\Debug\Append_To_Output_Tables.obj
+.\Debug\AssignDrainageFlows.obj
+.\Debug\AssignPriorityOrder.obj
+.\Debug\BalanceFlowsAtReservoirs.obj
+.\Debug\BalanceFlowsAtStreamNodes.obj
+.\Debug\BuildDrainageOrder.obj
+.\Debug\BuildLinkStructure.obj
+.\Debug\BuildNodeStructure.obj
+.\Debug\CalculateDemand.obj
+.\Debug\calv46sn_v7.obj
+.\Debug\Data_Read.obj
+.\Debug\et_v7_fromdave.obj
+.\Debug\find.obj
+.\Debug\hydatasn_v7.obj
+.\Debug\ImposeMeasuredFlows.obj
+.\Debug\indepth1_v7.obj
+.\Debug\Initialise_Output_Tables.obj
+.\Debug\mddata_v10_7.obj
+.\Debug\MIC.OBJ
+.\Debug\modules.obj
+.\Debug\newt.obj
+.\Debug\PropagateWaterViaUser.obj
+.\Debug\PTRATE.OBJ
+.\Debug\read_inputs.obj
+.\Debug\read_struct_from_text.obj
+.\Debug\snowdgtv22.obj
+.\Debug\SnowLSub.obj
+.\Debug\SnowWrap.obj
+.\Debug\snowxv22.obj
+.\Debug\top_main_v7.obj
+.\Debug\toplim_v7.obj
+.\Debug\topmoddgt_v7.obj
+.\Debug\watermgmt.obj
+.\Debug\Write_Output_line.obj
+.\Debug\Write_Output_Tables.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dtarb\LOCALS~1\Temp\RSPD5.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\topmoddgt_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\top_main_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\snowxv22.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\SnowWrap.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\SnowLSub.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\snowdgtv22.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\PTRATE.FOR
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\newt.for
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\modules.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Write_Output_Tables.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Write_Output_line.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\watermgmt.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\read_struct_from_text.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\read_inputs.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\PropagateWaterViaUser.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\MIC.FOR
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\mddata_v10_7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Initialise_Output_Tables.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\indepth1_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\ImposeMeasuredFlows.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\hydatasn_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\find.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\et_v7_fromdave.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Data_Read.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\toplim_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\calv46sn_v7.f
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\CalculateDemand.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildNodeStructure.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildLinkStructure.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BuildDrainageOrder.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BalanceFlowsAtStreamNodes.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\BalanceFlowsAtReservoirs.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AssignPriorityOrder.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AssignDrainageFlows.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\Append_To_Output_Tables.f90
+C:\Dave\Projects\Nooksack\TopNetModel\topnetcodes\AllocateWaterToUsers.f90
+Linking...
+   Creating library Debug/topnet.lib and object Debug/topnet.exp
+Creating temporary file "C:\DOCUME~1\dtarb\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /o"Debug/compilable.bsc" 
+.\Debug\AllocateWaterToUsers.sbr
+.\Debug\Append_To_Output_Tables.sbr
+.\Debug\AssignDrainageFlows.sbr
+.\Debug\AssignPriorityOrder.sbr
+.\Debug\BalanceFlowsAtReservoirs.sbr
+.\Debug\BalanceFlowsAtStreamNodes.sbr
+.\Debug\BuildDrainageOrder.sbr
+.\Debug\BuildLinkStructure.sbr
+.\Debug\BuildNodeStructure.sbr
+.\Debug\CalculateDemand.sbr
+.\Debug\calv46sn_v7.sbr
+.\Debug\Data_Read.sbr
+.\Debug\et_v7_fromdave.sbr
+.\Debug\find.sbr
+.\Debug\hydatasn_v7.sbr
+.\Debug\ImposeMeasuredFlows.sbr
+.\Debug\indepth1_v7.sbr
+.\Debug\Initialise_Output_Tables.sbr
+.\Debug\mddata_v10_7.sbr
+.\Debug\MIC.SBR
+.\Debug\modules.sbr
+.\Debug\newt.sbr
+.\Debug\PropagateWaterViaUser.sbr
+.\Debug\PTRATE.SBR
+.\Debug\read_inputs.sbr
+.\Debug\read_struct_from_text.sbr
+.\Debug\snowdgtv22.sbr
+.\Debug\SnowLSub.sbr
+.\Debug\SnowWrap.sbr
+.\Debug\snowxv22.sbr
+.\Debug\top_main_v7.sbr
+.\Debug\toplim_v7.sbr
+.\Debug\topmoddgt_v7.sbr
+.\Debug\watermgmt.sbr
+.\Debug\Write_Output_line.sbr
+.\Debug\Write_Output_Tables.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\dtarb\LOCALS~1\Temp\RSPD9.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+topnet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,2 @@
+WRIA 1 Existing Conditions										
+ReturnFlowID	NumReturnFlows	ReturnFlowUnits	ReturnFlowAmt1	ReturnFlowType1	ReturnFlowLocn1	ReturnFlowWWTPID1	ReturnFlowAmt2	ReturnFlowType2	ReturnFlowLocn2	ReturnFlowWWTPID2

@@ -1,0 +1,54 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Jul 21 11:10:43 2013
+        MODULE HYDATA__genmod
+          INTERFACE 
+            SUBROUTINE HYDATA(SDATE,SHOUR,INTERV,M,MI,MPS,MPE,NGAUGE,NEQ&
+     &,AREA,BRAIN,FLOW,IRET,IGAPS,TEMPER,DEWP,TRANGE,DTBAR,NS,WRG,LRG,  &
+     &MAXSLP,ELEVTG,BTMAX,BTMIN,BTDEW,BDTBAR,SP,BXLAT,BXLON,XLAT,XLON,  &
+     &STDLON,MAXGAUGE,MAXINT,MAXSITES,MAXRESPONSE,MAXTGAUGE,WIND2M,WRG1,&
+     &IDEBUGOUTPUT,IDEBUGBASIN,IDEBUGCASE)
+              INTEGER(KIND=4) :: MAXTGAUGE
+              INTEGER(KIND=4) :: MAXRESPONSE
+              INTEGER(KIND=4) :: MAXSITES
+              INTEGER(KIND=4) :: MAXINT
+              INTEGER(KIND=4) :: MAXGAUGE
+              INTEGER(KIND=4) :: MAXSLP
+              INTEGER(KIND=4) :: SDATE
+              INTEGER(KIND=4) :: SHOUR
+              INTEGER(KIND=8) :: INTERV
+              INTEGER(KIND=4) :: M
+              INTEGER(KIND=4) :: MI
+              INTEGER(KIND=4) :: MPS
+              INTEGER(KIND=4) :: MPE
+              INTEGER(KIND=4) :: NGAUGE
+              INTEGER(KIND=4) :: NEQ
+              REAL(KIND=8) :: AREA
+              REAL(KIND=8) :: BRAIN(MAXSLP,MAXINT)
+              REAL(KIND=8) :: FLOW(MAXRESPONSE,MAXINT)
+              INTEGER(KIND=4) :: IRET
+              INTEGER(KIND=4) :: IGAPS(3)
+              REAL(KIND=8) :: TEMPER(MAXINT)
+              REAL(KIND=8) :: DEWP(MAXINT)
+              REAL(KIND=8) :: TRANGE(MAXINT)
+              REAL(KIND=8) :: DTBAR(12,MAXTGAUGE)
+              INTEGER(KIND=4) :: NS
+              REAL(KIND=8) :: WRG(MAXSLP,MAXGAUGE)
+              INTEGER(KIND=4) :: LRG(MAXSLP,MAXGAUGE)
+              REAL(KIND=8) :: ELEVTG(MAXTGAUGE)
+              REAL(KIND=8) :: BTMAX(MAXSLP,MAXINT)
+              REAL(KIND=8) :: BTMIN(MAXSLP,MAXINT)
+              REAL(KIND=8) :: BTDEW(MAXSLP,MAXINT)
+              REAL(KIND=8) :: BDTBAR(12,MAXSLP)
+              REAL(KIND=8) :: SP(39,MAXSLP)
+              REAL(KIND=8) :: BXLAT(MAXSLP)
+              REAL(KIND=8) :: BXLON(MAXSLP)
+              REAL(KIND=8) :: XLAT(MAXTGAUGE)
+              REAL(KIND=8) :: XLON(MAXTGAUGE)
+              REAL(KIND=8) :: STDLON
+              REAL(KIND=8) :: WIND2M(MAXINT)
+              REAL(KIND=8) :: WRG1(MAXSLP,MAXGAUGE)
+              INTEGER(KIND=4) :: IDEBUGOUTPUT
+              INTEGER(KIND=4) :: IDEBUGBASIN
+              INTEGER(KIND=4) :: IDEBUGCASE
+            END SUBROUTINE HYDATA
+          END INTERFACE 
+        END MODULE HYDATA__genmod

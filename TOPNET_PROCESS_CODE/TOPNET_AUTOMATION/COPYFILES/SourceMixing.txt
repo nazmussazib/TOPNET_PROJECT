@@ -1,0 +1,2 @@
+WRIA 1 Existing Conditions					
+SourceMixingID	UsersSourceNum	Units	Amount	SeasonNumber	SeasonsDefnID

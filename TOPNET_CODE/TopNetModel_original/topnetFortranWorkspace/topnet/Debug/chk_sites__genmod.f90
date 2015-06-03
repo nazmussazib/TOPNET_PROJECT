@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Tue Jul 02 09:35:32 2013
+        MODULE CHK_SITES__genmod
+          INTERFACE 
+            SUBROUTINE CHK_SITES(LRG,SITES,J,IMATCH)
+              INTEGER(KIND=4) :: LRG
+              INTEGER(KIND=4) :: SITES
+              INTEGER(KIND=4) :: J
+              INTEGER(KIND=4) :: IMATCH
+            END SUBROUTINE CHK_SITES
+          END INTERFACE 
+        END MODULE CHK_SITES__genmod

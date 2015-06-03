@@ -1,0 +1,2 @@
+WRIA1 Existing Scenario Users															   
+UserId 	UserType 	POU_ID 	DemandVble 	DemandRate 	InYearDemandType 	ReturnFlowID 	SourceMixingId 	NumSources 	SourceID1 	RightID1 	SourceID2 	RightID2 	SourceID3 	RightID3	   

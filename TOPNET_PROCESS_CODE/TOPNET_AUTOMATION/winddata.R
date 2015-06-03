@@ -1,0 +1,1 @@
+nldasDates <-seq(from= ISOdate(year=  2010,month= 1,day=   1,hour=00),to= as.POSIXlt( Sys.Date() - 4),by= "hour")

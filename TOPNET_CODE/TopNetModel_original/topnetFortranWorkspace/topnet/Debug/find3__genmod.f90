@@ -1,0 +1,15 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Jun 26 16:19:25 2013
+        MODULE FIND3__genmod
+          INTERFACE 
+            SUBROUTINE FIND3(IARRAY1,IVAL1,IARRAY2,IVAL2,IARRAY3,IVAL3, &
+     &NUM)
+              INTEGER(KIND=4) :: NUM
+              INTEGER(KIND=4) :: IARRAY1(NUM)
+              INTEGER(KIND=4) :: IVAL1
+              INTEGER(KIND=4) :: IARRAY2(NUM)
+              INTEGER(KIND=4) :: IVAL2
+              INTEGER(KIND=4) :: IARRAY3(NUM)
+              INTEGER(KIND=4) :: IVAL3
+            END SUBROUTINE FIND3
+          END INTERFACE 
+        END MODULE FIND3__genmod

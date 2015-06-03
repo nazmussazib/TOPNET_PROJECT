@@ -1,0 +1,2 @@
+WRIA 1 Existing Conditions										
+ReservoirID	DrainageID	InOffStream	RightID	MaxStore	InitialStore	MinStore	MaxInflow	MaxWithdrawal	MinEnvRelease	LossRate
